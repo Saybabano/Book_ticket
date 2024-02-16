@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC Rail Connect</title>
+    <link rel="icon" href="./images.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <form style="width:50%;height:50%;border: 1px solid blue;margin-left: 25%;">
+        <header style="border: 1px solid rgb(8, 8, 8);height: 40px; background-color: blue;">
+            <nav style="display: flex;justify-content: space-around;color: white;">
+                <a style="text-decoration: none; color: white;margin-top: 10px;font-weight: 900;" href="#">☑️ PNR STATUS</a>
+                <a style="text-decoration: none; color: white;margin-top:10px;font-weight:900;" href="#">📝 CHARTS / VACANCY</a>
+            </nav>
+        </header>
+        <main>
+            <h1 style="text-align: center;" >BOOK TICKET</h1>
+            <hr>
+            <fieldset>
+                <legend style="font-size: 25px;">SIGN IN </legend>
+                <br>
+                <label for="UserName">Username</label> 
+                <input type="text" id="UserName"> 
+                <br>
+                <br>
+                <label for="Password">Password</label> 
+                <input type="password" id="Password"> 
+                <br>
+                <br>
+                <label for="ConfirmPassword">Confirm Password</label> 
+                <input type="password" id="ConfirmPassword">
+                <br>
+                <br>
+                <button>Login</button>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend style="font-size: 25px;">USER REGISTRATION</legend>
+                <br>
+                <br>
+                <input style=" border: none; border-bottom: 1px solid black ;" type="number"placeholder="Mobile Number">
+                <br>
+                <br>
+                <input style=" border: none; border-bottom: 1px solid black ;" type="email"placeholder="Email Id">
+                <br>
+                <br>
+                <input style=" border: none; border-bottom: 1px solid black ;" type="text"placeholder="UserName">
+                <br>
+                <br>
+                <input style=" border: none; border-bottom: 1px solid black ;" type="password"placeholder="Password">
+                <br>
+                <br>
+                <input style=" border: none; border-bottom: 1px solid black ;" type="password"placeholder="Confirm password">
+                <br>
+                <br>
+                <input style=" border: none; border-bottom: 1px solid black ;" type="text"placeholder="First Name">
+                <input style=" border: none; border-bottom: 1px solid black ;" type="text"placeholder="Middle Name(Optional)">
+                <input style=" border: none; border-bottom: 1px solid black ;" type="text"placeholder="Last Nmae(Optional)">
+                <br>
+                <br>
+                <input style=" border: none; border-bottom: 1px solid black ;" type="date"placeholder="DOB(dd/mm/yy)">
+                <label style="margin-left: 30px;"  for="Gender">F</label>
+                <input type="radio" name="Gender">
+                <label for="M">M</label>
+                <input type="radio" name="Gender">
+                <label for="T">T</label>
+                <input type="radio" name="Gender">
+        
+                <br>
+                <br>
+                <select  style=" border: none; border-bottom: 1px solid black;">
+                    <option value="">SELECT OCCUPATION</option>
+                    <option value="Government">Government</option>
+                    <option value="Public">Public</option>
+                    <option value="private">private</option>
+                    <option value="Professional">Professional</option>
+                    <option value="SelfEmployed">SelfEmployed</option>
+                    <option value="Student">Student</option>
+                    <option value="others">others</option>
+                </select>
+                <br>
+                <br>
+                <label for="SELECT NATIONALITY">NATIONALITY:</label>
+                <br>
+                <input style=" border: none; border-bottom: 1px solid black ;"list="national" id="SELECT NATIONALITY"  name="SELECT NATIONALITY"/>
+
+                <datalist id="national">
+                    <option value="Us"></option>
+                    <option value="Afghanistan"></option>
+                    <option value="Albania"></option>
+                    <option value="American Somoa"></option>
+                    <option value="Anguilla"></option>
+                    <option value="India"></option>
+                    <option value="Iraq"></option>
+                    <option value="Italy"></option>
+                    <option value="japan"></option>
+                </datalist>
+                <br>
+                <br>
+                <button style="margin-left: 50%">Next</button>
+            </fieldset>
+        </main>
+    </form>
+</body>
+</html>
